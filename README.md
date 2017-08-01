@@ -14,7 +14,7 @@ $ source env/bin/activate
 ```
 
 ### Then you can now start installing your python requirements ###
-## To view all the requirements ##
+#### To view all the requirements ##
 ``` bash
 $ pip freeze
 ```
