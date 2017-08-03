@@ -7,19 +7,25 @@ $ cd tutorial
 ```
 ### Create a virtualenv to isolate our package dependencies locally ###
 ``` bash
-$ pip install virtualenvwrapper
+$ virtualenv env
 ```
 ``` bash
-$ export WORKON_HOME=~/Envs
+$ source env/bin/activate
 ```
 ``` bash
-$ mkdir -p $WORKON_HOME
+$ pip install django
 ```
 ``` bash
-$ source /usr/local/bin/virtualenvwrapper.sh
+$ django-admin.py startproject tutorial
 ```
 ``` bash
-$ mkvirtualenv env1
+$ cd tutorial
+```
+``` bash
+$ django-admin.py startapp quickstart
+```
+``` bash
+$ cd quickstart
 ```
 ### Virtualenvwrapper source ###
 https://virtualenvwrapper.readthedocs.io/en/latest/
