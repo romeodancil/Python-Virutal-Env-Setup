@@ -7,11 +7,22 @@ $ cd tutorial
 ```
 ### Create a virtualenv to isolate our package dependencies locally ###
 ``` bash
-$ virtualenv env
+$ pip install virtualenvwrapper
 ```
 ``` bash
-$ source env/bin/activate
+$ export WORKON_HOME=~/Envs
 ```
+``` bash
+$ mkdir -p $WORKON_HOME
+```
+``` bash
+$ source /usr/local/bin/virtualenvwrapper.sh
+```
+``` bash
+$ mkvirtualenv env1
+```
+### Virtualenvwrapper source ###
+https://virtualenvwrapper.readthedocs.io/en/latest/
 
 ### Then you can now start installing your python requirements ###
 #### To view all the requirements ##
