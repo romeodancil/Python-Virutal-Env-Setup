@@ -33,13 +33,10 @@ https://virtualenvwrapper.readthedocs.io/en/latest/
 ### Python3 venv
 ``` bash
 $ python3 -m venv myenv
-``` bash
-$ source env/bin/activate
 ```
 ``` bash
 $ source env/bin/activate
 ```
-
 ### Then you can now start installing your python requirements ###
 #### To view all the requirements ##
 ``` bash
